@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class=container">
+      <div id='navigate'>
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary p-3">
+  <a class="navbar-brand" href="#">LocateMe</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Disclaimer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Data Sources</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+    </div>
+  <div class="row">
+
+    <div class="row">
+  <div class="col-sm"></div>
+  <div class="col-md">
+
+    <form>
+      <div class='form-group'>
+    <label class="control-label" for='person'>Person</label>
+        <div class="input-group mb-3">
+    <input class='form-control' id='person' type='text`' placeholder='Joe Smith'/>
+       <div class="input-group-append">
+   <button type="submit" class="btn btn-default btn-success">Predict</button>
+  </div></div>
+    
+       
+  
+      </div>
+  </form>
+
+    <div id='results'>
+    <h2>Origin Prediction</h2>
+      <h3>"Joe Smith"</h3>
+      <table class="table table-striped">
+        <thead class="thead-dark">
+        <tr>
+        <th scope="col">Political Entity</th scope="col">
+        <th scope="col">Predicted membership</th>
+        </tr>
+          </thead>
+        <tr>
+          <td>Germany</td><td>50%</td>
+</tr>
+           <tr>
+          <td>United States</td><td>25%</td>
+</tr>
+        <tr>
+          <td>United Kingdom</td><td>25%</td>
+</tr>
+
+          
+      </table>
+    </div>
+      
+  </div>
+  <div class="col-sm"></div>
+  </div>
+  </div>
+  <footer class="fixed-bottom text-center">
+  <p>©Marcin Kraszewski 2022<br>
+  </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> 
+</body>
+
+</html>
